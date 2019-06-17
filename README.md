@@ -8,6 +8,12 @@
   |Testing|814|70.76167%|
   |Public Test|8041|72.60291%|
 
+- My Computer:
+  - OS: Ubuntu 18.04.2 LTS 64-bit
+  - Memory: 15.6 GiB
+  - Processor: Intel® Core™ i5-4460 CPU @ 3.20GHz × 4
+  - Graphics: GeForce RTX 2070
+
 - Model:
   ```python
   Xception_model = Xception(weights="imagenet", include_top=False, input_shape=(IMG_HEIGHT, IMG_WIDTH, 3))
@@ -60,9 +66,3 @@
                       validation_data=valid_generator,
                       validation_steps=valid_steps)
   ```
-
-- My Computer:
-  - OS: Ubuntu 18.04.2 LTS 64-bit
-  - Memory: 15.6 GiB
-  - Processor: Intel® Core™ i5-4460 CPU @ 3.20GHz × 4
-  - Graphics: GeForce RTX 2070
