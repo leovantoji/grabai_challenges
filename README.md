@@ -5,7 +5,7 @@
   |:-:|:-:|:-:|
   |Training|6515|93.05%|
   |Validation|815|68.22%|
-  |Testing|814|70.76167%|
+  |Test|814|70.76167%|
   |Public Test|8041|72.60291%|
 
 - My Computer:
